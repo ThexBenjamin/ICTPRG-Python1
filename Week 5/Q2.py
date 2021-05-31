@@ -1,0 +1,5 @@
+date = input ("Please enter the date in the form of dd/mm/yyyy ")
+seperate = date.split("/")
+print ("Day:", seperate[0])
+print ("Month:", seperate[1])
+print ("Year:", seperate[2])
